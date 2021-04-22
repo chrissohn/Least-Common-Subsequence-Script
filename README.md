@@ -1,2 +1,3 @@
 # Least-Common-Subsequence-Script
 Script for finding LCS between two DNA strands 
+Running the program needs the following inputs: python program3.py [input file]. The input file must be in the format of "string name" "=" (or some indication of equals) "string", with some whitespace between each of these values. My program splits each line of the input and takes the split at index 0 as the string name and the split at index 2 as the actual string. No matter what is in the indices of the split line, the program will always compare the string at index 2 with the other strings at index 2 with the names of these strings being the string at index 0.
